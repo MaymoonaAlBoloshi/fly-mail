@@ -31,7 +31,7 @@ export default function Index() {
                   <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
                     <Link
                       to="/join"
-                      className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-pink-600 shadow-sm hover:bg-yellow-50 sm:px-8"
+                      className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-pink-600 shadow-sm hover:bg-pink border-pink-400 border-2 sm:px-8"
                     >
                       Sign up
                     </Link>
