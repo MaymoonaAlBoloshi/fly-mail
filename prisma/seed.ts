@@ -24,23 +24,23 @@ async function seed() {
     },
   });
 
-  await prisma.template.create({
-    data: {
-      title: "Default",
-      description: "Default template",
-      html: `<h1 class="text-2xl text-pink-600">Template 3</h1>`,
-      userId: user.id,
-    },
-  });
+  // await prisma.template.create({
+  //   data: {
+  //     title: "Default",
+  //     description: "Default template",
+  //     html: `<h1 class="text-2xl text-pink-600">Template 3</h1>`,
+  //     userId: user.id,
+  //   },
+  // });
 
-  await prisma.template.create({
-    data: {
-      title: "Default 3",
-      description: "Default template 3",
-      html: `<h1 class="text-2xl text-orange-600">Template 3</h1>`,
-      userId: user.id,
-    },
-  });
+  // await prisma.template.create({
+  //   data: {
+  //     title: "Default 3",
+  //     description: "Default template 3",
+  //     html: `<h1 class="text-2xl text-orange-600">Template 3</h1>`,
+  //     userId: user.id,
+  //   },
+  // });
 
   await prisma.note.create({
     data: {
